@@ -5,3 +5,6 @@ En este caso se buscó en github y se encontró un ejemplo parcial de un control
 - Luis Miguel Romero Gutierrez
 - Allan Batista 
 - Jader Cardona
+
+el link del repocitorio es el siguiente 
+https://github.com/LMiguelRG/ControlDifuso.git
