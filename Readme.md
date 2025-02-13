@@ -1,4 +1,7 @@
-![Logo tec culiacan](./Teclogo.png)
+<p align="center">
+  <img src="./Teclogo.png" alt="Logo tec culiacan">
+</p>
+<p align="center">
 # Presentacion
 - Instituto Tecnológico de Culiacán
 - Carrera: Ing. Tecnologías de la información y comunicaciones 
@@ -7,7 +10,7 @@
 - Grupo: 12:00 – 01:00 PM 
 - Alumno: Rodrigo Alonso Páez Gastélum
 - Número de control: 20170080
-
+</p>
 # Repositorio Tópicos de inteligencia artificial 
 ## Tarea 1
 La tarea 1 es sobre las áreas y aplicaciones de la inteligencia artificial.
