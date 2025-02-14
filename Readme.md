@@ -2,10 +2,7 @@
   <img src="./Teclogo.png" alt="Logo tec culiacan">
 </p>
 <p align="center">
-<<<<<<< HEAD
 
-=======
->>>>>>> c56da7f61e7f9235e145ef0973a47884215ed2bb
 # Presentacion
 - Instituto Tecnológico de Culiacán
 - Carrera: Ing. Tecnologías de la información y comunicaciones 
@@ -15,10 +12,7 @@
 - Alumno: Rodrigo Alonso Páez Gastélum
 - Número de control: 20170080
 </p>
-<<<<<<< HEAD
 
-=======
->>>>>>> c56da7f61e7f9235e145ef0973a47884215ed2bb
 # Repositorio Tópicos de inteligencia artificial 
 ## Tarea 1
 La tarea 1 es sobre las áreas y aplicaciones de la inteligencia artificial.
