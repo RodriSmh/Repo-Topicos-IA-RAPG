@@ -16,7 +16,8 @@ def tablero(reinas):
 
 def Solucion_Inicial(n):
     # Crea una configuración aleatoria inicial
-    return [random.randint(0, n - 1) for _ in range(n)]
+    #return [random.randint(0, n - 1) for _ in range(n)]
+    return [1,1,2,3,4,5,6,7]
 
 def Colisiones(reinas):
     # Calcula la cantidad de colisiones en el tablero

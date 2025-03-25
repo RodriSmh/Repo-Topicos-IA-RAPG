@@ -21,3 +21,5 @@ la carpeta de unidad 1 contiene las tareas relacionadas a la unidad 1
 
 ## Unidad 2 
 La capeta de unidad 2 contiene las tareas relacionada con el módulo 2 
+
+- Contiene 3 carpetas donde se encuentran las tareas 1 2 y 3 de la unidad
