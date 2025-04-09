@@ -46,7 +46,16 @@ def recocido_simulado(n, temp_inicial, temp_final, alpha, L):
     mejor_solucion = solucion_actual.copy()
     temperatura = temp_inicial
     num_movimientos = 0
+    num_vecinos = 0
     iteracion = 0
+    
+    # Mostrar información de la iteración
+    print(f"Solucion base {iteracion}:")
+    tablero(solucion_actual)
+    print("Costo:", Colisiones(solucion_actual))
+    print("Temperatura:", temperatura)
+    print("Numero de vecinos: ", num_vecinos)
+    print("-" * 40)
     
     while temperatura > temp_final:
         iteracion += 1
@@ -64,6 +73,7 @@ def recocido_simulado(n, temp_inicial, temp_final, alpha, L):
             if delta < 0 or random.random() < math.exp(-delta / temperatura):
                 solucion_actual = vecino
                 num_movimientos += 1
+                num_vecinos+=1
                 
                 # Actualizar la mejor solución encontrada
                 if Colisiones(solucion_actual) < Colisiones(mejor_solucion):
@@ -74,6 +84,7 @@ def recocido_simulado(n, temp_inicial, temp_final, alpha, L):
         tablero(solucion_actual)
         print("Costo:", Colisiones(solucion_actual))
         print("Temperatura:", temperatura)
+        print("Numero de vecinos: ", num_vecinos)
         print("-" * 40)
         
         # Enfriar el sistema
@@ -86,15 +97,14 @@ def recocido_simulado(n, temp_inicial, temp_final, alpha, L):
 
 if __name__ == "__main__":
     n = 8
-    temp_inicial = 120.0
+    temp_inicial = 95.0
     temp_final = 0.1
-    alpha = 0.95  # Factor de enfriamiento
+    alpha = 0.90  # Factor de enfriamiento
     #alpha =random.uniform(0.8,0.99)
     L = 100       # Longitud de la cadena de Markov
-
+    
     Solucion, num_movimientos, tiempo_total = recocido_simulado(
         n, temp_inicial, temp_final, alpha, L)
-    
     print("\nSolución Final:")
     tablero(Solucion)
     print(f"Colisiones: {Colisiones(Solucion)}")
