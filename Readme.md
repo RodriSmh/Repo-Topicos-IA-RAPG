@@ -22,7 +22,9 @@ la carpeta de unidad 1 contiene las tareas relacionadas a la unidad 1
 ## Unidad 2 
 La capeta de unidad 2 contiene las tareas relacionada con el módulo 2 
 
-- Contiene 3 carpetas donde se encuentran las tareas 1 2 y 3 de la unidad
+- La tarea 1 es una investigación de 4 metodos de heurística 
+- La tarea 2 es un ejemplo de codigo para la solucion de 8 reinas con el algoritmo tabú.
+- La tarea 3 es un ejemplo de solucion de codigo para el algoritmo de recocido simulado.
 ## Unidad 3
 La carpeta de unidad 3 contiene 3 carpetas con la correspondiente tarea
 - la tarea uno es sobre Evolucion diferencial es una investigacion en diapositiva
