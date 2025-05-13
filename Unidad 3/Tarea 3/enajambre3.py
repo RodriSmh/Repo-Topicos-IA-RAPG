@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 sys.path.append(r'C:\Users\640 G5\Desktop\Semestre 114\05 Topicos de inteligencia artificial\Unidad 1\Repocitorio\Unidad 3\Tarea 2')
-from enjambre2 import Particula, Enjambre
 from enjambre2 import Particula, Enjambre  # Importamos las clases base
 
 class ParticulaMejorada(Particula):
@@ -57,12 +56,12 @@ class EnjambreMejorado(Enjambre):
         for i in random.sample(range(len(self.particulas)), min(5, len(self.particulas))):
             plt.plot(self.particulas[i].historial_valores, alpha=0.3, linestyle='--')
         
-        plt.title('Convergencia del Enjambre')
-        plt.xlabel('Iteración')
-        plt.ylabel('Valor de la Función Objetivo')
-        plt.legend()
-        plt.grid(True)
-        plt.show()
+        # plt.title('Convergencia del Enjambre')
+        # plt.xlabel('Iteración')
+        # plt.ylabel('Valor de la Función Objetivo')
+        # plt.legend()
+        # plt.grid(True)
+        # plt.show()
     
     def visualizar_trayectorias(self, indice_dimension=0):
         plt.figure(figsize=(10, 6))
@@ -71,11 +70,11 @@ class EnjambreMejorado(Enjambre):
             trayectoria = [pos[indice_dimension] for pos in particula.historial_posiciones]
             plt.plot(trayectoria, alpha=0.4)
         
-        plt.title(f'Trayectorias de las Partículas (Dimensión {indice_dimension})')
-        plt.xlabel('Iteración')
-        plt.ylabel(f'Posición en dimensión {indice_dimension}')
-        plt.grid(True)
-        plt.show()
+    #     plt.title(f'Trayectorias de las Partículas (Dimensión {indice_dimension})')
+    #     plt.xlabel('Iteración')
+    #     plt.ylabel(f'Posición en dimensión {indice_dimension}')
+    #     plt.grid(True)
+    #     plt.show()
     
     def generar_metricas(self):
         valores_finales = [p.mejor_valor for p in self.particulas]
