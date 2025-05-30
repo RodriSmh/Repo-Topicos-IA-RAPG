@@ -9,4 +9,4 @@ Es la implementacion de el algoritmo de enjambre de partículas, en este caso es
 Es la implementacion de el algorimo de enjambre, donde implementa las funcionalidades presentadas en clase
 ## Tarea 4
 Es la implementacion del algoritmo genetico para la resolución del problema del agente viajero.
-la carpeta contiene el código en python, una imagen con el grafo propuesto, un markdown readme con la descripcion del código .
+la carpeta contiene el código en python, una imagen con el grafo propuesto, un markdown readme con la descripcion del código.
